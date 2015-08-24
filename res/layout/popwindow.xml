@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/gray"
+    android:orientation="vertical" >
+
+    <Button 
+        android:id="@+id/button1"
+         android:layout_width="fill_parent"
+        android:paddingRight="10dp"
+       android:background="@color/white"
+       android:paddingLeft="10dp"
+       
+    android:layout_height="30dp"
+    android:gravity="center_vertical"
+  
+    android:text="显示全部"
+        
+        />
+    
+      <Button 
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:paddingRight="10dp"
+       android:background="@color/white"
+       android:paddingLeft="10dp"
+         
+         android:layout_marginTop="1dp"
+    android:layout_height="30dp"
+    android:gravity="center_vertical"
+    android:text="驾    校"
+        
+        />
+      
+      <Button 
+        android:id="@+id/button4"
+      android:layout_width="fill_parent"
+        android:paddingRight="10dp"
+       android:background="@color/white"
+       android:paddingLeft="10dp"
+       android:layout_marginTop="1dp"
+    android:layout_height="30dp"
+    android:gravity="center_vertical"
+    android:text="驾校教官"
+        
+        />
+      
+          <Button 
+     android:layout_width="fill_parent"
+        android:paddingRight="10dp"
+       android:background="@color/white"
+       android:paddingLeft="10dp"
+       android:layout_marginTop="1dp"
+    android:layout_height="30dp"
+    android:gravity="center_vertical"
+    android:text="显示教官"
+        
+        />
+          
+              <Button 
+     android:layout_width="fill_parent"
+        android:paddingRight="10dp"
+       android:background="@color/white"
+       android:paddingLeft="10dp"
+       android:layout_marginTop="1dp"
+    android:layout_height="30dp"
+    android:gravity="center_vertical"
+    android:text="资深个体用户"
+        
+        />
+
+</LinearLayout>
